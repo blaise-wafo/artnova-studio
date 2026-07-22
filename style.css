@@ -143,12 +143,15 @@ h1,h2,h3{
 .nav-links a:hover::after{ width:100%; }
 
 .btn{
+  appearance: none;
+  -webkit-appearance: none;
   display:inline-flex; align-items:center; justify-content:center; gap:9px;
   padding: 12px 22px;
   border-radius: 999px;
   font-size: 14.5px;
   font-weight: 600;
   border: 1px solid transparent;
+  background: transparent;
   transition: transform .18s ease, box-shadow .18s ease, background .2s;
   white-space: nowrap;
 }
