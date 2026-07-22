@@ -1,1 +1,0 @@
-# artnova-studio
